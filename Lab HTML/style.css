@@ -61,3 +61,80 @@ body{
     font-weight: 300;
     top: -10px;
 }
+.container .contentbox{
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+.container .contentbox h3{
+ border-left: 4px solid rgb(248, 132, 0);
+ padding-left: 10px;
+ line-height: 1em;
+ font-weight: 600;
+ color: black;
+ letter-spacing: 0.1em;
+ margin-bottom: 20px;   
+ margin-top: 50px;
+}
+.container .contentbox ul{
+    position: relative;
+    margin: 10px 0;
+}
+.container .contentbox ul li{
+    list-style: none;
+    margin: 25px 0;
+    line-height: 1em;
+    color: black;
+    cursor: pointer;
+    display: flex;
+}
+.container .contentbox ul li ion-icon{
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: rgb(0, 132, 255);
+}
+.container .contentbox ul.education li{
+   flex-direction: column;
+   margin: 25px 0; 
+}
+h5{
+    color: rgb(0, 132, 255) ;
+}
+h4{
+    color: black;
+    font-weight: 500;
+    margin: 5px 0;
+}
+h6{
+    color: rgb(145, 145, 145);
+    font-weight: 300;
+    font-size: 1em;
+}
+.language li{
+   flex-direction: column; 
+}
+.language li span{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.language .percent{
+    position: relative;
+    width: 100%;
+    background: rgb(209, 209, 209);
+    height: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(58, 160, 255);
+}
+
